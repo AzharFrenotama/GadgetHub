@@ -198,3 +198,95 @@ h4{
     font-size: 14px;
     font-weight: 500;
 }
+
+.banner_xiaomipad6{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.xiaomipad{
+    width: 125%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produk2{
+    position:relative;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0,.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gmbrbnr{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    place-items: center;
+}
+
+.gmbrbnr img{
+    width: 100%;
+}
+
+.ttlnbtn{
+    width: 50%;
+    display: table-column;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.ttlnbtn h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 1em;
+}
+
+.ttlnbtn button{
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    background-color: #8629F2;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.header_produk3{
+    width: 100%;
+    margin: 0px 16%;
+    padding-top: 16%;
+}
+
+.Games{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bannergames{
+    width: 125%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
