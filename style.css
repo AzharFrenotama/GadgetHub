@@ -290,3 +290,30 @@ h4{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+footer{
+    padding: 80px 13% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: #1D0739;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 200px;
+}
+
+.footer-content{
+    background: #1D0739;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.footer-content img{
+    background: transparent;
+}
+
+.footer-content p{
+    background: transparent;
+    color: white;
+}
